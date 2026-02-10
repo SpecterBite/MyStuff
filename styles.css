@@ -3,12 +3,12 @@
     --color-green: #00ff00;
     --color-blue: #0000ff;
 }
-.bg-green {
-    background-color: rgb(13, 118, 13);
+.bg-main {
+    background-color: rgb(30, 109, 30);
 }
-.bg-red {
-    background-color: rgb(255, 0, 0);
+.bg-secondary {
+    background-color: rgb(66, 66, 66);
 }
-.bg-blue {
+.bg-tertiary {
     background-color: rgb(0, 0, 255);
 }
