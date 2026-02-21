@@ -1,7 +1,6 @@
 # MyStuff
 just having a simple website to display my stuff:
-
--Projects(most stuff still in progress)
+-Projects
 -Art
 -And other stuff I guess
 
