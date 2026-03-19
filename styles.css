@@ -149,14 +149,28 @@
     background: rgba(0,0,0,0.06); border-radius: 999px;
 }
 
+/* Profile align helper: text on left, image on right */
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+}
+.profile-text {
+    flex: 1 1 220px;
+}
+.profile-image {
+    flex: 0 0 auto;
+    max-width: 260px;
+    border-radius: 12px;
+}
+
+
 /* Responsive tweaks */
 @media (max-width: 600px) {
     .site-header { flex-direction: column; align-items: flex-start; }
     .grid { grid-template-columns: 1fr; }
 }
 
-/* Usage comment:
-     - Wrap main content in a `.container`.
-     - Use `.grid` for responsive cards.
-     - Use `.card` for grouped blocks and `.stack` for vertical layouts.
-*/
